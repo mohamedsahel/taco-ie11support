@@ -1,0 +1,83 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@page {
+margin: 0.5cm;
+}
+body {width:100% !important; margin:0 !important; padding:0 !important; font-family: 'Chivo', sans-serif; line-height: 1.4; word-spacing:1.1pt; letter-spacing:0.2pt; color: #000; background: none; font-size: 11pt; }
+.section_title_input, .content_measure_details {display:inline}
+.loader, .header, .hero_logo-flag, .content_measure_image, .options-filter-toggler, .options-filter-toggler label, .content_edit-btn, .content_measure_print, .content_measures-list, .section_title_input, .sm-box.section_dropdown, .go-back, .content_measures-list, .content_introduction, .spotlight, .print, button#cmd {display:none}
+.nav_logo-flag {text-align: center}
+.nav_logo {width:3cm}
+h3.nav_flag {margin:0;padding:0;text-transform: uppercase}
+.hero_description {text-align: center; color:#969696!important}
+.print-box {width:50%; display:inline-block;float:left;padding-bottom:30px}
+.content {height:auto!important}
+.content_chosen-params p {margin:0}
+.chart_wrapper {}
+.chart_legend {
+  /*display: inline-flex;*/
+  flex-direction: column;
+  width: auto;float:left;
+  margin:22px 0 0;
+}
+.chart_canvas {}
+.chart_legend_element {
+  display: flex;
+}
+#chart_canvas {float:left}
+.chart_legend_element-name {
+  /*font-size: 1.4rem;*/
+  margin: 0 0.5rem;
+    white-space: nowrap;
+}
+
+.chart_legend_element-value {
+  /*font-size: 1.3rem;*/
+   margin:0;
+    width:100%;
+    margin-bottom:10px;
+    text-align:right;
+}
+.color-box {width:10px;height:10px;box-sizing: border-box;}
+.color-box.green {border:10px solid #29af58;}
+.color-box.blue {border:10px solid #29abe2;}
+.color-box.brown {border:10px solid #b27036;}
+.color-box.yellow {border:10px solid #ffb831;}
+
+h3.content_title {font-size:14px;}
+.content_measure_head {clear:both}
+.content_measure_title {font-size:22px;text-align:left}
+.section_title {font-weight:bold;font-size:1.1em}
+.species-table {margin-bottom:30px}
+.species-table th {text-align:left}
+th.right {text-align:right}    
+.month-box {border:1px solid black;border-right:1px solid white;width:20px;height:20px;display:block;float:left}
+div.months span.month-box:last-of-type {border-right:1px solid black!important}
+
+.species-table td .specie_color-box-geelgroen, .species-table td .specie_color-box-geel, .species-table td .specie_color-box-wit, .species-table td .specie_color-box-blauw, .species-table td .specie_color-box-paars, .species-table td .specie_color-box-roze-lila, .species-table td .specie_color-box-oranje, .species-table td .specie_color-box-rood, .species-table td .specie_color-box-roze, .species-table td .specie_color-box-grijs {border:1px solid black;width:20px;height:20px;display:block;float:right}
+
+/* bloeikleuren */
+.specie_color-box-geelgroen {outline:11.5px solid #d1d171;outline-offset:-12px}
+.specie_color-box-geel {outline:11.5px solid #ffdd00;outline-offset:-12px}
+.specie_color-box-wit {outline:11.5px solid #fff;outline-offset:-12px}
+.specie_color-box-blauw {outline:11.5px solid #8299ce;outline-offset:-12px}
+.specie_color-box-paars {outline:11.5px solid #ac4a38;outline-offset:-12px}
+.specie_color-box-roze-lila {outline:11.5px solid #f49dbd;outline-offset:-12px}
+.specie_color-box-oranje {outline:11.5px #95a01b;outline-offset:-12px}
+.specie_color-box-rood {outline:11.5px #d51920;outline-offset:-12px}
+.specie_color-box.roze {outline:11.5px #efb7c0;outline-offset:-12px}
+.specie_color-box-grijs {outline:11.5px #bcbec0;outline-offset:-12px}
+
+
+div.months span.month-box.letter{border:1px solid white!important;text-align:center}
+.month-box.filled {outline:11.5px solid #4b76cc;outline-offset:-12px;border-right:1px solid #4b76cc}
+.species-table {width:100%}
+.species-table a:link, .species-table a:visited, .section_content a:link, .section_content a:visited {text-decoration:none;color:#000 }
+.section_content p a::after{
+    content: " [" attr(href) "] ";
+  }
+.section_content img {max-width:80%}
+
+.footer_sponsors {width: 100%}
+.footer_sponsor-img {height:1cm;margin-right:30px;margin-top:40px}
+.footer_links a:link, .footer_links a:visited {color:#4b76cc}
